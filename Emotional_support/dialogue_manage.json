@@ -1,0 +1,14 @@
+[
+    {
+        "timestamp": "2023-09-08 20:17:04",
+        "user_input": "hey",
+        "bot_response": "Hello there. Glad to see you're back. What's going on in your world right now?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 20:17:49",
+        "user_input": "hi",
+        "bot_response": "Hi there. How are you feeling today?",
+        "tag": "tag"
+    }
+]

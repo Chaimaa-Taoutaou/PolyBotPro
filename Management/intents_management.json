@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+        "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+       },
+       {"tag": "morning",
+           "patterns": ["Good morning"],
+           "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+       },
+       {"tag": "afternoon",
+           "patterns": ["Good afternoon"],
+           "responses": ["Good afternoon. How is your day going?"]
+       },
+       {"tag": "evening",
+           "patterns": ["Good evening"],
+           "responses": ["Good evening. How has your day been?"]
+       },
+       {"tag": "night",
+           "patterns": ["Good night"],
+           "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+       },
+       {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+        "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+       },
+       {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+       },
+       {"tag": "no-response",
+           "patterns": [""],
+           "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+       },
+       {"tag": "neutral-response",
+           "patterns": ["nothing much"],
+           "responses": ["Oh I see. Do you want to talk about something?"]
+       },
+       {"tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+        "responses": ["I'm PolyBotPro, your Personal AI Assistant. How are you feeling today", "I'm PolyBotPro, a  AI Assitant designed to assist you. Tell me about yourself.", "I'm PolyBotPro. I am a conversational agent. So how are you feeling today?", "You can call me PolyBotPro.", "I'm PolyBotPro!", "Call me PolyBotPro"]
+       },
+       {
+        "tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can assist you with various tasks, such as:\n\n1. **Task Tracking:** I can help you organize and track your tasks and to-do lists.\n2. **Water Consumption:** I can remind you to stay hydrated by tracking and reminding you to drink water regularly.\n3. **Setting Reminders:** You can ask me to set reminders for important events or tasks.\n4. **Time Management:** I can offer tips and techniques for managing your time effectively.\n5. **Money Management:** I can provide advice on budgeting and financial planning.\n\nPlease keep in mind that I'm not a substitute for professional assistance in mental health matters. If you have concerns about anxiety or depression, it's important to seek help from a qualified mental healthcare worker."]
+      },
+       {"tag": "creation",
+           "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+           "responses": ["I was created by >.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques"]
+       },
+       {"tag": "name",
+           "patterns": ["My name is ", "I am name.", "I go by "],
+           "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+       },
+       {"tag": "help",
+       "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+       "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+       }
+    ]
+}

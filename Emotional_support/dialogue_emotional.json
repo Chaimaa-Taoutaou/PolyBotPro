@@ -1,0 +1,140 @@
+[
+    {
+        "timestamp": "2023-09-03 19:51:36",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-05 16:38:37",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:13:49",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:14:58",
+        "user_input": "could you help me?",
+        "bot_response": "Tell me your problem so that i can assist you",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:15:24",
+        "user_input": "I am feeling depressed",
+        "bot_response": "I'm here to listen and support you. Can you tell me more about what's been going on?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:16:36",
+        "user_input": "I am so useless",
+        "bot_response": "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:18:24",
+        "user_input": "What can I do to feel better?",
+        "bot_response": "Some coping strategies for anxiety include deep breathing exercises, mindfulness practices, and physical activity. Have you tried any of these?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 02:18:34",
+        "user_input": "no",
+        "bot_response": "Tell me more",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-07 14:22:13",
+        "user_input": "disease",
+        "bot_response": "Please go on.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:47:22",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:48:03",
+        "user_input": "cc",
+        "bot_response": "Please don't hesitate to talk to me.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:48:22",
+        "user_input": "i have a problem",
+        "bot_response": "That seem awful. What do you think is behind this?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:48:36",
+        "user_input": "i have insomnia",
+        "bot_response": "That seem awful. What do you think is behind this?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:48:54",
+        "user_input": "because I'm depressed",
+        "bot_response": "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:49:05",
+        "user_input": "how",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:50:46",
+        "user_input": "mental health",
+        "bot_response": "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:51:17",
+        "user_input": "I don't feel good",
+        "bot_response": "How long have you been feeling this way?",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 17:51:30",
+        "user_input": "month",
+        "bot_response": "Please don't hesitate to talk to me.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 18:26:05",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 18:26:25",
+        "user_input": "I feel depressed",
+        "bot_response": "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 18:27:20",
+        "user_input": "What is Depression",
+        "bot_response": "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life.",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 20:18:50",
+        "user_input": "hi",
+        "bot_response": "Hey",
+        "tag": "tag"
+    },
+    {
+        "timestamp": "2023-09-08 20:19:04",
+        "user_input": "I'm depressed",
+        "bot_response": "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal.",
+        "tag": "tag"
+    }
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyBotPro</title>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        }
+
+        h1 {
+        text-align: center;
+        padding: 20px;
+        }
+
+        nav {
+        background-color: #6d44b8; /* Blue color */
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 90px;
+        }
+
+        nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        }
+
+        nav li {
+        margin: 0;
+        padding: 0;
+        }
+
+        nav a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: white;
+        }
+
+        nav a:hover {
+        background-color: #573b8a;
+        border-radius: 15px; /* Darker blue on hover */
+        }
+
+        nav a.active {
+        background-color: #573b8a; /* Darker blue for active link */
+        font-weight: bold;
+        color: white;
+        border-radius: 15px;
+        }
+
+
+        .logo {
+        display: flex;
+        align-items: center;
+        }
+
+        .logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        }
+
+        .login-button {
+            margin-left: auto; /* Push the button to the right */
+            background-color: #573b8a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 15px;
+            text-decoration: none;
+        }
+
+        .login-button:hover {
+            background-color: #6d44b8; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           
+        </div>
+        <ul>
+            <li><a href="/" {% if current_page == 'healthcare_page' %}class="active"{% endif %}>Healthcare</a></li>
+            <li><a href="{{ url_for('emotionnal_support') }}" {% if current_page == 'emotionnal_support' %}class="active"{% endif %}>Emotional Support</a></li>
+            <li><a href="{{ url_for('recommendation_page') }}" {% if current_page == 'recommendation_page' %}class="active"{% endif %}>Recommendation</a></li>
+            <li><a href="{{ url_for('management') }}" {% if current_page == 'management_page' %}class="active"{% endif %}>Management</a></li>
+        </ul>
+        <a href="{{ url_for('login') }}" class="login-button">Login</a>
+    </nav>
+
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
